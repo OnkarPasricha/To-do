@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  node-app:
+    build:
+      dockerfile: ./Dockerfile
+      context: .
+    environment:
+      MYSQL_ROOT_PASSWORD: 'Onkar'
+      MYSQL_DATABASE: 'Node'
+      MYSQL_USER: 'Onkar'
+      MYSQL_PASSWORD: 'admin1234'
+    ports:
+      - "8000:8000"
+
+
