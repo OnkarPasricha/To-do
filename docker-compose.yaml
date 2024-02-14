@@ -7,10 +7,10 @@ services:
       context: .
     environment:
       MYSQL_ROOT_PASSWORD: 'Onkar'
-      MYSQL_DATABASE: 'Node'
+      MYSQL_DATABASE: 'mysql'
       MYSQL_USER: 'Onkar'
       MYSQL_PASSWORD: 'admin1234'
     ports:
-      - "8001:8001"
+      - "8000:8000"
 
 
