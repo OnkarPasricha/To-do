@@ -1,5 +1,5 @@
 FROM node:14
-WORKDIR app
+WORKDIR app/dev
 COPY . .
 RUN npm install
 ENV MYSQL_HOST = '13.41.228.152'
