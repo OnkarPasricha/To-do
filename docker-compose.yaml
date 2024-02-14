@@ -11,6 +11,6 @@ services:
       MYSQL_USER: 'Onkar'
       MYSQL_PASSWORD: 'admin1234'
     ports:
-      - "8001:8001"
+      - "8000:8000"
 
 
